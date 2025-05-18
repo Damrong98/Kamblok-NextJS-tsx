@@ -232,9 +232,9 @@ export function ChatTemplate({ prompt, formHeader, showformFooter = true }: Chat
                             maxWidth: "920px",
                         }}
                     >
-                        <div className={`text-center ${hasMessagesWithContent ? "hidden" : "block"}`}>
-                            {/* What can Kamblok help with today? */}
-                        </div>
+                        {/* <div className={`text-center ${hasMessagesWithContent ? "hidden" : "block"}`}>
+                            What can Kamblok help with today?
+                        </div> */}
 
                         {/* {messages.map((message: any) => { */}
                         {messages.slice(1).map((message: any) => {
@@ -264,7 +264,7 @@ export function ChatTemplate({ prompt, formHeader, showformFooter = true }: Chat
                                                 className="mb-2 rounded-lg p-3 w-fit max-w-[80%] bg-muted text-muted-foreground"
                                                 style={{ alignSelf: "flex-start" }}
                                             >
-                                                Kamblok think...
+                                                សូមមេត្តារងចាំ...
                                             </div>
                                         )}
                                         <ResponseBox rawContent={message.content}>
@@ -300,7 +300,7 @@ export function ChatTemplate({ prompt, formHeader, showformFooter = true }: Chat
                     <form onSubmit={handleSubmit}>
                         <div className="flex items-center space-x-2">
                             <InputPrompt
-                                placeholder="Ask Kamblok for a lesson plan..."
+                                placeholder="សូមសួរបន្ថែមនៅទីនេះ..."
                                 value={input}
                                 onChange={handleInputChange}
                                 onKeyDown={(e) => {

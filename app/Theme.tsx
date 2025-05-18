@@ -106,7 +106,7 @@ export default function Theme({ children }: ThemeProps) {
             </div>
           </div>
           <div className="flex gap-3 items-center">
-            <Link href={"/"} className="bg-pink-600 hover:bg-pink-400 text-white rounded small p-1 px-2">New Chat</Link>
+            <Link href={"/"} className="bg-pink-600 hover:bg-pink-400 text-white text-sm rounded p-1 px-2">New Chat</Link>
             <div>
               <DarkModeToggle />
             </div>

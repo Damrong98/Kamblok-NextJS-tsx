@@ -15,10 +15,10 @@ export function NavMenu({ setIsSidebarOpen }: NavMenuProps) {
   const navItems = [
     // { path: '/', label: 'Home' },
     { path: '/', label: 'Chat', icon: Icons.chat },
-    { path: '/lesson', label: 'Lesson Generator', icon: Icons.lesson },
-    { path: '/slide', label: 'Slide Generator', icon: Icons.slide },
-    { path: '/exam-paper', label: 'Exam Paper', icon: Icons.exam },
-    { path: '/howtoteach', label: 'How to Teach', icon: Icons.teach },
+    { path: '/lesson', label: 'កិច្ចតែងការបង្រៀន', icon: Icons.lesson },
+    { path: '/slide', label: 'ស្លាយ', icon: Icons.slide },
+    { path: '/exam-paper', label: 'សំណួរប្រលង', icon: Icons.exam },
+    { path: '/howtoteach', label: 'របៀបបង្រៀន', icon: Icons.teach },
   ];
 
   return (

@@ -18,14 +18,12 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-sans)'],
+        khmer: ['var(--font-khmer)'],
         mono: ['var(--font-mono)'],
       },
     },
   },
-  safelist: ['bg-primary', 'text-primary', 'bg-secondary', 'text-secondary', 'bg-muted', 'text-muted'],
   plugins: [
-    // require("tailwindcss-animate"),
-    // require('@tailwindcss/typography')
   ], // From your package.json
 }
 

@@ -87,7 +87,7 @@ export function HowToTeach() {
               </Select>
 
               <Button
-                className="btn-primary bg-green-500 round"
+                className="bg-pink-600 hover:bg-pink-400 rounded"
                 onClick={handleGenerate}
                 disabled={!inputValue.trim()}
               >

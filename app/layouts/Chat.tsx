@@ -199,7 +199,7 @@ export function Chat() {
                         }}
                     >
                         <h3 className={`text-center ${hasMessagesWithContent ? "hidden" : "block"}`}>
-                            What can Kamblok help today?
+                            What can Kamblok help?
                         </h3>
                         {messages.map((message: any) => {
                             if (message.role === "user" || message.role === "model") {

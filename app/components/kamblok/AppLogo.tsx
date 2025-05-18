@@ -23,22 +23,22 @@ export const AppLogo = () => {
 
   return (
     <div className="sidebar_header_logo">
-      <Link href="/" className="flex gap-2">
-        <Image
+      <Link href="/" className="flex gap-2 items-center">
+        <img
           src={logoSrc}
           alt="Kamblok"
-          width={100}
-          height={27}
+          // width={100}
+          // height={27}
           style={{ height: '27px', width: 'auto' }}
-          priority={false}
+          // priority={false}
         />
-        <Image
+        <img
           src={logoSrc2}
           alt="Kamblok"
-          width={100}
-          height={32}
+          // width={100}
+          // height={32}
           style={{ height: '32px', width: 'auto' }}
-          priority={false}
+          // priority={false}
         />
       </Link>
     </div>
