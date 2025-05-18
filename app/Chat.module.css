@@ -1,0 +1,20 @@
+/* Chat.module.css */
+.chatContainer {
+    /* height: calc(100vh - 100px); */
+    scrollbar-width: thin;
+    scrollbar-color: #9ca3af #f3f4f6;
+  }
+  
+  .chatContainer::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .chatContainer::-webkit-scrollbar-thumb {
+    background-color: #9ca3af;
+    border-radius: 9999px;
+  }
+  
+  .chatContainer::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+  }
+  

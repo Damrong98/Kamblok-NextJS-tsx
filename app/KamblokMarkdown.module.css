@@ -1,0 +1,123 @@
+/* Container for the entire Markdown content */
+.messageContent {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.messageContent ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.messageContent ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+.messageContent table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.messageContent th,
+.messageContent td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.messageContent hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  
+
+/* Wrapper for each code block */
+.codeWrapper {
+  background: var(--background);
+  border-radius: 4px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+/* Header for code blocks with language and copy button */
+.codeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-alt2);
+  padding: 10px 15px;
+}
+
+/* Language badge styling */
+.language {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--background);
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Base styles for copy button */
+.copyButton {
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 2px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+/* Hover effect for copy button */
+.copyButton:hover {
+  transform: scale(1.05);
+}
+
+/* Active effect for copy button */
+.copyButton:active {
+  transform: scale(0.95);
+}
+
+/* Style 1 for copy buttons (green) */
+.copyButtonStyle1 {
+  background: #10b981;
+}
+
+/* Hover effect for style 1 */
+.copyButtonStyle1:hover {
+  background: #059669;
+}
+
+/* Style 2 for copy buttons (purple) */
+.copyButtonStyle2 {
+  background: #8b5cf6;
+}
+
+/* Hover effect for style 2 */
+.copyButtonStyle2:hover {
+  background: #7c3aed;
+}
+
+/* Code block container */
+.codeBlock {
+  margin: 0;
+  padding: 16px;
+  background: var(--background-alt);
+  overflow-x: auto;
+  /* max-height: 400px; */
+}
+
+/* Code element styling */
+.codeElement {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+}
