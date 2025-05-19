@@ -81,7 +81,7 @@ export function HowToTeach() {
                   <SelectValue placeholder="Select template" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="standard">របៀបបង្រៀនទៅទៅ</SelectItem>
+                  <SelectItem value="standard">របៀបបង្រៀនទូទៅ</SelectItem>
                   <SelectItem value="standard2">របៀបបង្រៀនបែបប្រៀបធៀប</SelectItem>
                 </SelectContent>
               </Select>

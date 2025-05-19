@@ -17,7 +17,7 @@ export function NavMenu({ setIsSidebarOpen }: NavMenuProps) {
     { path: '/', label: 'Chat', icon: Icons.chat },
     { path: '/lesson', label: 'កិច្ចតែងការបង្រៀន', icon: Icons.lesson },
     { path: '/slide', label: 'ស្លាយ', icon: Icons.slide },
-    { path: '/exam-paper', label: 'សំណួរប្រលង', icon: Icons.exam },
+    { path: '/exam-paper', label: 'សំណួរប្រឡង', icon: Icons.exam },
     { path: '/howtoteach', label: 'របៀបបង្រៀន', icon: Icons.teach },
   ];
 
